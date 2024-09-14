@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' gap:; script-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; object-src *; style-src 'self' data: 'unsafe-inline'; img-src 'self' data:; media-src 'self' data:; font-src 'self' data:; connect-src *">
+  
+  <title>Yu-Gi-Oh! Simplificado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Yu-Gi-Oh! Simplificado 4</h1>
+  
+  <div class="game-board">
+    <div class="player-field" id="player1-field">
+      <h2>Jogador 1</h2>
+      <div class="card-zone" id="player1-cards"></div>
+      <button id="drawCard1">Puxar Carta</button>
+    </div>
+
+    <div class="player-field" id="player2-field">
+      <h2>Jogador 2</h2>
+      <div class="card-zone" id="player2-cards"></div>
+      <button id="drawCard2">Puxar Carta</button>
+    </div>
+  </div>
+
+  <div id="message"></div>
+
+  <script src="app.js"></script>
+  <script src="events.js"></script>
+
+</body>
+</html>
